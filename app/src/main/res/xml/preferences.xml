@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+                  xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.example.iyonaga.numberpickerpreference.NumberPickerPreference
+            android:key="@string/pref_number_key"
+            android:title="@string/pref_number_title"
+            android:defaultValue="@integer/pref_number_default_value"
+            app:minValue="@integer/pref_number_min_value"
+            app:maxValue="@integer/pref_number_max_value"
+            app:wrapSelectorWheel="true" />
+
+</PreferenceScreen>
